@@ -1,8 +1,13 @@
 ---
-title: About
-permalink: /about/
+title: Contact
+permalink: /contact/
 ---
 
-# Michal Pawlowski
+#### My name is Michal Pawlowski and I am a Software Developer interested in Machine Learning, Artificial Intelligence and Robotics.
 
-## Software Developer specializing in Machine Learning, Artificial Intelligence and Web Applications
+If you'd like me to work with/for you on a ML/AI project here are few ways to reach me:
+
+ * E-mail: [{{ site.email }}](mailto:{{ site.email }}?subject=github)
+ * Skype: [misza222](skype://misza222)
+ * [http://linkedin.com/in/{{ site.linkedin_username}}](LinkedIn)
+ * Address: Kirchberg, Luxembourg, EU
