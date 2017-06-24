@@ -9,5 +9,6 @@ If you'd like me to work with/for you on a ML/AI project here are few ways to re
 
  * E-mail: [{{ site.email }}](mailto:{{ site.email }}?subject=github)
  * Skype: [misza222](skype://misza222)
- * [http://linkedin.com/in/{{ site.linkedin_username}}](LinkedIn)
- * Address: Kirchberg, Luxembourg, EU
+ * [LinkedIn](http://linkedin.com/in/{{ site.linkedin_username}})
+ * [My web development company](http://www.mpawlowski.eu)
+ * Address: Kirchberg, 1336 Luxembourg, EU
