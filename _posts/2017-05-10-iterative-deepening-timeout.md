@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Iterative deepening and with reliable timeout"
+title:  "Iterative deepening with reliable timeout"
 date:   2017-05-10 09:00:00 -0100
 categories: ai
 ---
