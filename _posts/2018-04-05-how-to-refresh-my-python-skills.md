@@ -10,5 +10,4 @@ to do some "katas". Quite fun, but got a better idea and  created a naive bayes
 classifier to detect spam on kaggle sms dataset.
 Pure python array and so veeery slow (as forgot quite a bit about pandas and numpy), but works quite well :)
 
-See [github repo](https://github.com/misza222/PythonRefresher) for a jupyter
-notebook with a code and some description.
+See [jupyter notebook](https://github.com/misza222/SpamDetectionWithNaiveBayes/blob/master/notebook.ipynb) for details.
