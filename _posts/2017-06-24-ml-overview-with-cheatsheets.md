@@ -12,7 +12,6 @@ We all need a quick refresh from time to time.
 [Source](http://www.emilyinamillion.me/blog/2016/5/30/the-making-of-a-cheatsheet-emoji-edition)
 
 ## Performance measures
-
 ![Sensitivity_and_specificity]({{ "/assets/sensitivity-specificity.png" | absolute_url }})
 
 [Source](https://en.wikipedia.org/wiki/Sensitivity_and_specificity)
