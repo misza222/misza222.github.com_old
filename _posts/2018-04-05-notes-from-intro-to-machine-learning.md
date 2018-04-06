@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Notes from Intro to ML by Udacity"
-date:   2018-04-05 
+date:   2018-04-05
 categories: ml
 ---
 Here are my notes from going through [Introduction to Machine Learning course from Udacity](https://eu.udacity.com/course/intro-to-machine-learning--ud120).
@@ -34,3 +34,13 @@ For example:
 (where Pos - positive test, C - one has cancer)
 
 Last but not least - [great video from Raj](https://www.youtube.com/watch?v=PrkiRVcrxOs)
+
+## SVM
+
+Pretty good for data with clear separation lines, and so not so good when there is a lot of noise. Not for large datasets, as training takes O(n^3)
+
+Parameters
+
+* kernel
+* gamma - controls weights that points bring based on their distance from the decision boundary; larger gamma - close points have higher impact (so boundary more wiggly), lower gamma - further away points have something to say (so potentially smoother boundary line)
+* C - controls tradeoff between smooth decision boundary and classifying training points correctly; larger C - more training points correct, lower C - smoother decision boundary
