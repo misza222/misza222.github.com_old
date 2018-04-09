@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Notes from Intro to ML by Udacity"
-date:   2018-04-05
+date:   2018-04-09
 categories: ml
 ---
 Here are my notes from going through [Introduction to Machine Learning course from Udacity](https://eu.udacity.com/course/intro-to-machine-learning--ud120).
@@ -44,3 +44,18 @@ Parameters
 * kernel
 * gamma - controls weights that points bring based on their distance from the decision boundary; larger gamma - close points have higher impact (so boundary more wiggly), lower gamma - further away points have something to say (so potentially smoother boundary line)
 * C - controls tradeoff between smooth decision boundary and classifying training points correctly; larger C - more training points correct, lower C - smoother decision boundary
+
+
+## Decision Trees
+
+Terms important for DT:
+ * entropy - basically opposite of purity - SUM(pi * log2(pi)) where pi is probability of the class instance in the set
+ * information gain - difference between entropy before branching and after branching = entropy(parent) - [weighted average] entropy(children)
+
+DT are dividing dataset to maximise information gain at each step and are great for understanding, and visualising the results. However they are prone to overfitting (especially for data with lots of features)
+
+Parameters
+
+* min_samples_split - minimal number of samples required to split a node
+* max_height
+* criterion - could be entropy, but default for sk-learn is gini
