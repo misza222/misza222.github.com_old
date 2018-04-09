@@ -59,3 +59,9 @@ Parameters
 * min_samples_split - minimal number of samples required to split a node
 * max_height
 * criterion - could be entropy, but default for sk-learn is gini
+
+# K Nearest Neighbours
+
+Pretty simple algorithm. It takes into consideration k closest elements and chooses class that is most prevailing among those.
+
+Fast to train - essentially it just stores the vectors for each example with it's label.
