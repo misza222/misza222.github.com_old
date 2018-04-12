@@ -1,13 +1,25 @@
 ---
 layout: post
 title:  "Notes from Intro to ML by Udacity"
-date:   2018-04-09
+date:   2018-04-05
 categories: ml
 ---
 Here are my notes from going through [Introduction to Machine Learning course from Udacity](https://eu.udacity.com/course/intro-to-machine-learning--ud120).
 This is intended as a reference for myself, so if you find it useful, it is an added bonus :)
 
-# Algorithms
+
+# Classification vs. Regression
+
+|property|classification|regression|
+|:---|:---:|:---:|
+|output type| class label (discreet) | number (continous)|
+|what we r looking for?| decision boundary | best fit line |
+|evaluation| accuracy, precision, recall|R^2, sum of squared errors|
+
+
+As for the evaluation for regression, [R^2](https://en.wikipedia.org/wiki/Coefficient_of_determination) is a good metric that describes how much change in the output is explained by the change in the input. Usually 0 < R^2 < 1, but it can fall outside of this range for extremely bad fit.
+
+# Classification Algorithms
 
 ## Naive Bayes
 
