@@ -12,7 +12,7 @@ but in essence it turns out that
 
     for (p <- e) yield e′
 
-is translated to
+compiler translates to
 
     e .map { case p => e′ }.
 
