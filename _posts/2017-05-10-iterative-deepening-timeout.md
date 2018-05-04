@@ -7,7 +7,7 @@ categories: ai
 
 Use case for [iterative deepening](https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search) is to return most complete result it is possible within a certain time constraint.
 
-Here is my implementation of the timer and how to handle it in Python. It is Unix specific as it uses BSD signals, and will not work on Windows (but works on Mac of course).
+Here is my implementation of the timer and how to handle it in Python. It is Unix specific as it uses BSD signals, and will not work on Windows (but works on Mac of course as if you forgot, it's core is a fork of [Mach](https://en.wikipedia.org/wiki/Mach_(kernel)) kernel).
 
 {% highlight python %}
 import signal

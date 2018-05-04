@@ -20,11 +20,11 @@ y - true labels: usually binary
 ^
 y = prediction (called y hat)
 
-'''
+```
 ^   / 1 if Wx + b >= 0
 y = |
     \ 0 if Wx + b < 0
-'''
+```
 
 #### Perceptrons
 
@@ -44,7 +44,7 @@ If point misclassified by perceptron, then given learning rate *alpha* we modify
 
 step(x) = Wx + b >= 0 # Boolean interpretted python style (False - 0, True - 1)
 
-sigmoid(x) = 1 / (1 + e^-x)
+    sigmoid(x) = 1 / (1 + e^-x)
 
 ![Activation functions](https://qph.ec.quoracdn.net/main-qimg-01c26eabd976b027e49015428b7fcf01?convert_to_webp=true)
 
