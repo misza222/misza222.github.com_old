@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Useful vocab for Bitcoin, ML, AI, Programmin"
-date:   2018-04-17
+date:   2011-01-01
 categories: ml
 ---
 
