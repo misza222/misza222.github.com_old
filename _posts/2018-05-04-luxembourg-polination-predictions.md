@@ -19,6 +19,7 @@ WiP
 
 # Models
 
-For a start there I've used simple linear model as a baseline.
+For a start there I've used simple linear model as a baseline. Features for linear model included day and week of the year, min and max temperature on the day.
+
 
 # code on [github](https://github.com/misza222/LuPollen/)
