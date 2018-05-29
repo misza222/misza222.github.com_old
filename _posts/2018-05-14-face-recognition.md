@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Low light face recognition with OpenCV"
-date:   2011-05-14
+date:   2018-05-14
 categories: ml
 ---
 
